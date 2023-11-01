@@ -1,0 +1,17 @@
+.ele1{color:OrangeRed}
+p{color:DodgerBlue}
+body{background-color:Azure}
+.ele2{font-family:Trehuchet MS;font-weight:bold}
+.ele3{font:Times New Roman;font-size:10px}
+
+.marquee{font-size:15px;width:2800px;animation:marquee 30s linear infinite;background-color:Orange;color:white}
+.marquee1{margin:0px 20px}
+
+@keyframes marquee{
+0%{
+transform:translateX(60%);
+}
+100%{
+transform:translateX(-100%);
+}
+}

@@ -1,0 +1,35 @@
+.bg figure{animation:25s bg infinite;width:400%;position:relative;margin:20px 0px;left:0}
+.bg{overflow:hidden}
+.bg1{background-color:OrangeRed;width:1450px;color:White;margin:20px}
+
+.bg figure img{
+float:left;
+width:25%;
+}
+
+.bg figure img1{
+float:left;
+width:25%;
+}
+
+
+@keyframes bg{
+0% {
+left:0;
+}
+30%{
+left:0;
+}
+35%{
+left:-100%;
+}
+65%{
+left:-100%;
+}
+75%{
+left:-200%;
+}
+100%{
+left:-200%
+}
+}
